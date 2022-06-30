@@ -1,4 +1,4 @@
-const connect=(mapStateToProps=()=>{},mapDispatchToProps)=>{
+const connect=(mapStateToProps=()=>{},mapDispatchToProps={})=>{
     return (WrapComponent)=>{
         return class ConnectComponent extends React.Component{
             static contextTypes={
